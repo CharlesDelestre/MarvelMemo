@@ -1,0 +1,30 @@
+#logo {
+  text-align: center;
+  margin-top: 25px;
+}
+
+body {
+  background-color: black;
+}
+
+.cartes, .Back, .Front, .Perdu {
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 0px solid gray;
+  cursor: pointer;
+
+  /* La Largeur d'une Image */
+  width: 200px;
+
+  /* La Hauteur d'une Image */
+  height: 200px;
+}
+
+.Back {
+  z-index : 10;
+  background-image: url(Back.jpg);
+}
+
+#button {
+  text-align: center;
+}
