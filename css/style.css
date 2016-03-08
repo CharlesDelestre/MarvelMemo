@@ -10,7 +10,7 @@ body {
 .cartes, .Back, .Front, .Perdu {
   background-repeat: no-repeat;
   background-position: center center;
-  border: 0px solid gray;
+  border: 0 solid gray;
   cursor: pointer;
 
   /* La Largeur d'une Image */
@@ -22,7 +22,7 @@ body {
 
 .Back {
   z-index : 10;
-  background-image: url(Back.jpg);
+  background-image: url(../img/Back.jpg);
 }
 
 #button {

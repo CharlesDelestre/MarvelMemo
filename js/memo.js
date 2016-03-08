@@ -48,7 +48,7 @@ function Solution(){
     colTd = objColTr[i].cells
     for(x=0; x < colTd.length; x++)
     {
-      colTd[x].style.backgroundImage = "url("+ArrayDonne[colTd[x].id]+".jpg)";
+      colTd[x].style.backgroundImage = "url(img/"+ArrayDonne[colTd[x].id]+".jpg)";
       colTd[x].className = "Front";
     }
   }
@@ -122,7 +122,7 @@ function Jouer(objID){
     if(LastCarte == null)
     {
       objID.className = "Front";
-      objID.style.backgroundImage = "url("+ArrayDonne[objID.id]+".jpg)";
+      objID.style.backgroundImage = "url(img/"+ArrayDonne[objID.id]+".jpg)";
       LastCarte       = objID;
       Tirage          = true;
     }
@@ -132,7 +132,7 @@ function Jouer(objID){
       {
         // Retourne la Carte
         objID.className = "Front";
-        objID.style.backgroundImage = "url("+ArrayDonne[objID.id]+".jpg)";
+        objID.style.backgroundImage = "url(img/"+ArrayDonne[objID.id]+".jpg)";
 
         // Si les deux Cartes sont différentes
         if(ArrayDonne[objID.id] != ArrayDonne[LastCarte.id])
